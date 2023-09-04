@@ -10,7 +10,9 @@ export default function Produtos(){
             {listaProdutos.map(prod => (
                 <div key={prod.id}>
                     <Link to ={`/Produtos/EditarProdutos/${prod.id}`}>
-                        Editar o produto : {prod.nome}
+                        {prod.nome}
+                        
+                        
                     </Link>
                 </div>
             ))}
