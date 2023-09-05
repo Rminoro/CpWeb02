@@ -1,8 +1,9 @@
+import "../components/styleComponents.css"
 export default function Rodape(){
 
     return(
         <footer>
-            <p>Rodapé</p>
+            <p>Todos os direitos reservados © </p>
         </footer>
     )
 }

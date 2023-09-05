@@ -1,0 +1,19 @@
+footer {
+    background-color: #2b29a6;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .menu {
+    background-color: #2b29a6;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
