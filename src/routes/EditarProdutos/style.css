@@ -1,4 +1,7 @@
 #imgProd{
-   width: 300px;
+   width: 450px;
    height: 600px; 
+   float:right;
+   margin-bottom: 50px;
 }
+
