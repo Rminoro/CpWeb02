@@ -2,10 +2,10 @@ import { useParams } from "react-router-dom";
 import { listaProdutos } from "../../../listaProdutos";
 import "./style.css";
 import Zflip4 from "../../assets/Zflip4.png";
-import iphone14promax from "../../assets/iphone14promax.jpg";
+import iphone14promax from "../../assets/iphone14promax.png";
 import SamsungFES20 from "../../assets/SamsungFES20.png";
 import Airpod from "../../assets/Airpod.png";
-import PS5 from "../../assets/PS5.png";
+import Teclado from "../../assets/tecladoHyperX.png"
 
 export default function EditarProdutos() {
 
@@ -23,8 +23,8 @@ export default function EditarProdutos() {
 
     return (
         <main>
-            <h1>{produto.nome}</h1>
-            <p>Fotos do {produto.nome} abaixo </p>
+            <h1 id="container">{produto.nome}</h1>
+           
             {/* <button onClick={salvar}> Salvar</button> */}
             <p> Descrição: {produto.descricao} </p>
             <p> Preço: {produto.preco} </p>
@@ -41,8 +41,8 @@ export default function EditarProdutos() {
              {produto.nome === "AirPods" && (
                 <img id="imgProd" src={Airpod} alt={produto.nome} />
             )}
-            {produto.nome === "Playstation 5" && (
-                <img id="imgProd" src={PS5} alt={produto.nome} />
+            {produto.nome === "Teclado HyperX Alloy" && (
+                <img id="imgProd" src={Teclado} alt={produto.nome} />
             )}
         </main>
             

@@ -1,4 +1,4 @@
-import "./src/assets/iphone14promax.jpg"
+import "./src/assets/iphone14promax.png"
 export const listaProdutos =[
     {
         id:1,
@@ -12,7 +12,7 @@ export const listaProdutos =[
         nome:'Iphone 14 Pro max',
         descricao:"iPhone 14 Pro Max. Câmera grande-angular de 48 MP para capturar detalhes impressionantes",
         preco:"R$ 7599,99",
-        foto:"./src/assets/iphone14promax.jpg"
+        foto:"./src/assets/iphone14promax.png"
         
     },
     {
@@ -31,9 +31,9 @@ export const listaProdutos =[
     },
     {
         id:5,
-        nome:'Playstation 5',
-        descricao:"Desfrute do carregamento do seu PS5, extremamente rápido com o SSD de altíssima velocidade, uma imersão mais profunda com suporte a feedback tátil, gatilhos adaptáveis e áudio 3D, além de uma geração inédita de jogos incríveis para PlayStation.",
-        preco:"R$ 3.719,90",
-        foto:"./src/assets/PS5.png"
+        nome:'Teclado HyperX Alloy',
+        descricao:"O HyperX Alloy Origins Core é um teclado com menos dez teclas resistente e ultracompacto com chaves de teclas mecânicas exclusivas HyperX projetado para proporcionar aos gamers a melhor combinação de estilo, desempenho e confiabilidade",
+        preco:"R$ 449,00",
+        foto:"./src/assets/tecladoHyperX.png"
     }, 
 ]
